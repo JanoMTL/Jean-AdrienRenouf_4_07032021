@@ -48,6 +48,7 @@ a:hover {
     padding: 100px 50px;
 }
 
+
 .bloc-md {
     padding: 50px;
 }
@@ -166,6 +167,7 @@ a:hover {
 .d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
+
 
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
@@ -666,6 +668,7 @@ a {
     font-size: 36px;
 }
 
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -702,6 +705,12 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+
+}
+.logo{
+    margin-right: 2rem;
 }
 
 h2 {
@@ -775,12 +784,20 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:white!important;
+}
+.button-c{
+    display: flex;
+    justify-content: center;
+    
+
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    width: 50%;
+
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,6 +840,13 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+#parlons-web{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+
 }
 
 @media (max-width: 1024px) {
@@ -916,6 +940,11 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+    }
+    #row1{
+        width: 100%;
+        position: relative;
+        left: 1.5rem;
     }
     .site-navigation {
         position: inherit;
