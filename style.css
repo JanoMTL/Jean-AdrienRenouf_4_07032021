@@ -1086,3 +1086,10 @@ h4 {
         text-align: center;
     }
 }
+@media (min-width: 450px) {
+    .links{ 
+        flex-direction: row;
+
+    }
+    
+}
