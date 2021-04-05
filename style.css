@@ -281,14 +281,14 @@ a:hover {
 }
 #btnm1{
     border-radius: 3rem;
-    text-decoration: underline;
+    
     font-size: small;
     border: none;
     color: black;
 }
 #btnm2{
     color: black;
-    text-decoration: underline;
+    
 }
 .voffset {
     margin-top: 30px;
@@ -352,7 +352,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-    text-decoration: underline;
+    
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -407,7 +407,7 @@ a:hover {
 }
 .links li a{
     color:rgb(29, 28, 28);
-    text-decoration: underline;
+    
 }
 
 @media (min-width: 768px) {
@@ -912,7 +912,7 @@ h4 {
 .social-names{
     display: flex;
     
-    text-decoration: underline;
+    
 }
 @media (max-width: 1024px) {
     .bloc {
