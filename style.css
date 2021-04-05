@@ -409,6 +409,12 @@ a:hover {
     color:rgb(29, 28, 28);
     
 }
+.links li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+    
+
 
 @media (min-width: 768px) {
     .site-navigation {
