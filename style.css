@@ -94,6 +94,10 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: black;
+    opacity: 0.75;
+   
+    
 }
 
 .b-parallax {
@@ -266,6 +270,18 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+
+#btnm{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#btnm1{
+    border-radius: 3rem;
+    text-decoration: underline;
+    font-size: small;
+}
 .voffset {
     margin-top: 30px;
 }
@@ -328,6 +344,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    text-decoration: underline;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -337,6 +354,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    
 }
 
 .navbar-toggle {
@@ -365,7 +383,7 @@ a:hover {
 }
 
 .links{
-    margin-top: 3rem;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,6 +394,10 @@ a:hover {
 .links li{
     list-style: none;
     text-align: center;
+    font-weight: bold;
+}
+.links li a{
+    color:rgb(29, 28, 28)
 }
 
 @media (min-width: 768px) {
@@ -492,7 +514,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 
 .icon-lg {
@@ -667,7 +689,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -709,12 +731,13 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
 }
+
 
 .social {
     max-width: 400px;
@@ -794,7 +817,8 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ee7036;
+    
 }
 
 .tc-white {
@@ -806,16 +830,19 @@ h4 {
     
 
 }
+#bloc-5-cta{
+    background-color: white
+}
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f36523;
     color: #FFFFFF!important;
     width: 50%;
 
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #84330d!important;
     color: #FFFFFF!important;
 }
 
@@ -853,7 +880,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 #parlons-web{
     display: flex;
@@ -1090,6 +1117,9 @@ h4 {
     .links{ 
         flex-direction: row;
 
+    }
+    .icon-md{
+        font-size: 60px;
     }
     
 }
