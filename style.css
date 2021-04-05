@@ -271,6 +271,8 @@ a:hover {
 }
 
 #contact-form{
+    color: black;
+    
     
 }
 #btnm{
@@ -824,7 +826,7 @@ h4 {
     text-decoration: underline!important;
 }
 #bloc-6{ 
-    background-color: #ee7036;
+    background-color: #331f16;
 }
 
 .bgc-white {
