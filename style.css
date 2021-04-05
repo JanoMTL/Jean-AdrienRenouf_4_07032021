@@ -270,7 +270,9 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-
+#contact-form{
+    
+}
 #btnm{
     
     display: flex;
@@ -281,6 +283,12 @@ a:hover {
     border-radius: 3rem;
     text-decoration: underline;
     font-size: small;
+    border: none;
+    color: black;
+}
+#btnm2{
+    color: black;
+    text-decoration: underline;
 }
 .voffset {
     margin-top: 30px;
@@ -395,9 +403,11 @@ a:hover {
     list-style: none;
     text-align: center;
     font-weight: bold;
+    color: black;
 }
 .links li a{
-    color:rgb(29, 28, 28)
+    color:rgb(29, 28, 28);
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -514,7 +524,7 @@ button {
 }
 
 .icon-md {
-    font-size: 35px!important;
+    font-size: 20px!important;
 }
 
 .icon-lg {
@@ -836,9 +846,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #f36523;
-    color: #FFFFFF!important;
+    color:black;
     width: 50%;
 
+}
+#footer-titre{
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
@@ -892,7 +905,15 @@ h4 {
     font-weight: bold;
     font-size:small;
 }
-
+#social-logos{
+    display: flex;
+    justify-content: space-between;
+}
+.social-names{
+    display: flex;
+    
+    text-decoration: underline;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
