@@ -1,4 +1,3 @@
 User-agent: *
-
-Disallow: /page2
-Disallow: /*.php
+Allow: /
+Sitemap:https://janomtl.github.io/Jean-AdrienRenouf_4_07032021/
